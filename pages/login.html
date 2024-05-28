@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="../css/login-styles.css">
     <title>Travel-Agency-Login-page</title>
 </head>
 <body>
@@ -18,12 +18,14 @@
         <section>
             <form action="/submit">
                 <label for="email-area">Email</label>
-                <input type="email" required id="email-area">
+                <input type="email" name="email-area" required id="email-area">
+
                 <label for="password-area">Password</label>
-                <input type="password" required id="password-area">
+                <input type="password" name="password-area" required id="password-area">
+                <button class="login-below-area">LOG IN</button>
+                </section>
             </form>
-            <a href="../index.html" class="login-below-area">LOG IN</a>
-        </section>
+
         <footer>
             <p>Don't have an account? <a href="../index.html">Register</a></p>
         </footer>
