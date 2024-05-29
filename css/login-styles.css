@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -8,10 +9,33 @@ body{
 }
 
 main{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;  
+    margin: 6vh 20vw;
+    padding-bottom: 75vh;
+    border-radius: 2%;
+}   
+
+.bluebird-image-div{
+    display: flex;
+    margin-left: 58%;
+
 }
 
 img{
-    width: 50px;
+    width: 60px;
+    max-width: 100%;
+    
 }
 
+.first-section{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main-title{
+    font-weight: 800;
+    font-size:xx-large;
+    text-align: center;
+}
