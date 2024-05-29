@@ -16,7 +16,6 @@ main{
 }   
 
 .bluebird-image-div{
-    display: flex;
     margin-left: 58%;
 
 }
@@ -24,7 +23,6 @@ main{
 img{
     width: 60px;
     max-width: 100%;
-    
 }
 
 .first-section{
