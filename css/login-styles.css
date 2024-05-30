@@ -10,28 +10,58 @@ main{
     background-color: #FFFFFF;
     align-items: center;
     text-align: center;
-    margin: 5% 25%;
+    margin: 5% 35%;
     border-radius: 5px;
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }   
+
+.first-section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.second-section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .bluebird-image-div{
     position: relative;
+    overflow:hidden;
 }
 
 .bluebird-image-div img{
     width: 60px;
     position: relative;
-    transform: translate(110%, 20%);
+    transform: translate(160%, 30%);
 }   
+
 
 .main-title{
     font-weight: 800;
-    font-size:xx-large;
+    font-size: 300%;
     text-align: center;
     margin-top: 0;
+    word-wrap:break-word;
 }
+
 
 .first-section h2{
     font-weight: 600;
+}
+
+.first-section p{
+    font-size: 80%;
+    color: #5E6366;
+    text-align:justify;
+}
+
+.justify-text-center{
+    text-align: center;
+}
+
+
+.sections-separator{
+    margin: 8% 10%;
+    border-color: rgba(227, 229, 230, 0.2);
 }
